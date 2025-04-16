@@ -151,83 +151,14 @@ section {
 }
 @media (max-width: 768px) {
     header {
-        padding: 10px 50px;
-    }
-
-    section {
-        padding: 50px;
-    }
-
-    .main h2 {
-        font-size: 1.2em;
-    }
-
-    .main h2 span {
-        font-size: 2.5em;
-    }
-
-    .main h3 {
-        font-size: 1.5em;
-    }
-
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 90%;
-    }
-
-    .title {
-        font-size: 1.8em;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 20px;
-    }
-
-    .navigation {
+        padding: 10px 200px; /* نفس القيم للهوامش في سطح المكتب */
         display: flex;
-        flex-direction: column;
+        justify-content: space-between; /* يحتفظ بالتنسيق */
         align-items: center;
     }
 
     .navigation a {
-        padding: 10px 0;
-    }
-
-    section {
-        padding: 30px;
-    }
-
-    .main h2 {
-        font-size: 1em;
-    }
-
-    .main h2 span {
-        font-size: 2em;
-    }
-
-    .main h3 {
-        font-size: 1.2em;
-    }
-
-    .main-btn {
-        font-size: 1em;
-        padding: 10px 20px;
-    }
-
-    .title {
-        font-size: 1.5em;
-    }
-
-    .card {
-        width: 95%;
-        padding: 20px;
+        font-size: 1.1em; /* الحفاظ على نفس حجم الخط */
+        padding-left: 30px; /* نفس التباعد بين الروابط */
     }
 }
